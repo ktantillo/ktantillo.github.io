@@ -1,0 +1,66 @@
+body {
+    margin: 40px;
+  }
+  
+  .sidebar {
+    /* TODO: Define the grid area here */
+    grid-area: sidebar;
+  }
+  
+  .content {
+  
+    grid-area: content;
+    /* TODO: Define the grid area here */
+  }
+  
+  .header {
+  
+    grid-area: header;
+    /* TODO: Define the grid area here */
+  }
+  
+  .picture {
+  
+    grid-area: picture;
+    /* TODO: Define the grid area here */
+  }
+  .bio {
+  
+    grid-area: bio;
+    /* TODO: Define the grid area here */
+  }
+  
+  .left {
+  
+    grid-area: left;
+    /* TODO: Define the grid area here */
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-gap: 10px;
+    background-color: rgb(250, 233, 239);
+    color: #444;
+  
+    /* TODO: Define the grid-template-columns and grid-template-areas values here. */
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas:
+      '....... header header left'
+      'sidebar content content left'
+      'picture  bio  bio left';
+  }
+  
+  .box {
+    background-color: #b97e8f;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+  }
+  
+  .header,
+  .footer {
+    background-color: #999;
+  }
+  background-color:rgb(250, 233, 239);
+  
