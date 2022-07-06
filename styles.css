@@ -1,3 +1,5 @@
+<!-- CSS only -->
+
 body {
     margin: 40px;
   }
@@ -35,6 +37,42 @@ body {
     grid-area: left;
     /* TODO: Define the grid area here */
   }
+
+  .Packman {
+  
+    grid-area: Packman;
+    /* TODO: Define the grid area here */
+  }
+
+  .Pcreadme {
+  
+    grid-area: Pcreadme;
+    /* TODO: Define the grid area here */
+  }
+
+  .Eyemovement {
+  
+    grid-area: Eyemovement;
+    /* TODO: Define the grid area here */
+  }
+
+  .eyereadme {
+  
+    grid-area: eyereadme;
+    /* TODO: Define the grid area here */
+  }
+
+  .BusTracker {
+  
+    grid-area: BusTracker;
+    /* TODO: Define the grid area here */
+  }
+
+  .Busreadme {
+  
+    grid-area: left;
+    /* TODO: Define the grid area here */
+  }
   
   .wrapper {
     display: grid;
@@ -45,9 +83,9 @@ body {
     /* TODO: Define the grid-template-columns and grid-template-areas values here. */
     grid-template-columns: 300px 300px 300px;
     grid-template-areas:
-      '....... header header left'
-      'sidebar content content left'
-      'picture  bio  bio left';
+      '....... header header'
+      'sidebar content content'
+      'picture  bio  bio';
   }
   
   .box {
